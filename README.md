@@ -1,12 +1,21 @@
-# React + Vite
+Dice Game (React)
+A fun and interactive two-player Dice Game built with React and styled using styled-components. Roll the dice and see who wins — simple, fast, and responsive!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Two-player dice game
+- Random dice roll logic with React state
+- Styled using styled-components
+- Fully responsive design 
+- Option to reset game again
 
-Currently, two official plugins are available:
+How to run locally
+# Clone the repository
+git clone https://github.com/yourusername/dice-game.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Navigate into the project folder
+cd dice-game
 
-## Expanding the ESLint configuration
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Start the development server
+npm start
